@@ -33,19 +33,42 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items:flex-start;
+    align-items:center;
     width: 375px;
     background-color: white;
     border-radius: 1em;
-    padding: 2em;
+    padding: 1.3em;
     margin-bottom: 10px;
+    gap: 1em;
+
+    h2{
+        margin:0.5em 0 0.5em 0;
+        color: $Black;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 16px;
+        color: $Grey;
+    }
+    .content{
+        display:block;
+        
+
+    }
 
     .tag{
         background-color: $Yellow;
+        width:fit-content;
+        padding: 0.3em 1em;
+        border-radius: 8%;
+        margin-bottom: 0.7em;;
     }
 
-
-
-
+    .favicon{
+        width: 100%;
+        border-radius: 5%;
+        margin-bottom: 0.5em;
+    }
 
 }

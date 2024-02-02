@@ -38,15 +38,39 @@ body h1, body h2, body h3, body h4, body p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 375px;
   background-color: white;
   border-radius: 1em;
-  padding: 2em;
+  padding: 1.3em;
   margin-bottom: 10px;
+  gap: 1em;
+}
+.wrapper h2 {
+  margin: 0.5em 0 0.5em 0;
+  color: hsl(0, 0%, 7%);
+  font-weight: bold;
+}
+.wrapper p {
+  font-size: 16px;
+  color: hsl(0, 0%, 50%);
+}
+.wrapper .content {
+  display: block;
 }
 .wrapper .tag {
   background-color: hsl(47, 88%, 63%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.3em 1em;
+  border-radius: 8%;
+  margin-bottom: 0.7em;
+}
+.wrapper .favicon {
+  width: 100%;
+  border-radius: 5%;
+  margin-bottom: 0.5em;
 }
